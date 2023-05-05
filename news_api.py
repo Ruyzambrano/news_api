@@ -3,7 +3,7 @@ import json
 import webbrowser
 import tabulate as tb
 
-api_key = "e323ee62660d4ee5bc2cce92d84b8781"
+api_key = input("Enter your news api key: ")
 
 topic = input("What topic are you looking for? ")
 if not topic:
